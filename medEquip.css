@@ -1,0 +1,54 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 3rem;
+}
+
+.menu-link {    
+  height: 3rem;
+}
+
+.menu-link img {
+  height: 2em;
+  object-fit: cover;
+  object-position: center center;
+  transform: translateY(30%);
+}
+
+h1 {
+  margin-top: 5rem;
+  color: #736CED;
+  text-align: center;
+}
+
+.info-aparat {
+  display: flex;
+  align-items: center;
+
+  padding: 30px 0;
+  padding-left: 20px;
+  padding-right: 30px;
+  border-bottom: 2px solid #736CED;
+}
+
+.poza-aparat {
+  padding-right: 5rem;
+}
+
+.poza-aparat img {
+  height: 10rem;
+  width: 10rem;
+  object-fit: cover;
+  object-position: center center;
+}
+
+.descriere-aparat h2{
+  color: #736CED;
+  margin-bottom: 5px;
+}
+
+.descriere-aparat p {
+  text-indent: 10px;
+  line-height: 21px;
+}

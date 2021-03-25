@@ -1,0 +1,50 @@
+.info-doctor {
+    display: flex;
+    align-items: center;
+
+    padding: 30px 0;
+    padding-left: 20px;
+
+    border-bottom: 2px solid #736CED;
+}
+
+.poza-doctor {
+    padding-right: 5rem;
+}
+
+.poza-doctor img {
+    height: 10rem;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.descriere-doctor h2{
+    color: #736CED;
+    margin-bottom: 5px;
+}
+
+.descriere-doctor p {
+    text-indent: 10px;
+    line-height: 21px;
+}
+
+.btn-acasa {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+
+    font-size: 16px;
+    padding: 1rem 2rem;
+    background-color: #736CED;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 20px;
+
+    transition: all .3s;
+}
+
+.btn-acasa:hover {
+    background-color: #634B66;
+}

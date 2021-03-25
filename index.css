@@ -1,0 +1,95 @@
+body {
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    overflow: hidden;
+
+    position: relative;
+
+    background: url("./Img/policlinica.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+    
+.vl {
+    border-left: 2px solid rgba(46, 65, 105, 0.925);
+    position:absolute;
+    top:0;
+    bottom:0;
+    width:1px;
+    margin-left:21%;
+    margin-top: 4%;  
+}
+   
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+}
+
+.menu-link {    
+    height: 3rem;
+}
+
+.menu-link img {
+    height: 2em;
+    object-fit: cover;
+    object-position: center center;
+    transform: translateY(30%);
+}
+
+.page-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 48px;
+    height: calc(100vh - 48px);
+}
+
+.page-container img {
+    object-fit: cover;
+    object-position: center center;
+
+}
+
+.links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    position: absolute;
+    top: calc(50% - 24px);
+    left: 50%;
+    transform: translate(calc(-50% + 24px), -50%);
+}
+
+.links-container a {
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border-radius: 20px;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #736CED;
+
+    margin: 1rem;
+
+    transition: all .3s;
+}
+
+.links-container a:hover {
+    background-color: #634B66;;
+}
+
+.darkbg {
+    position: absolute;
+    background: rgba(0,0,0, .5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

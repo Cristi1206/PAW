@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("./Img/register.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #634B66;
+  height: 100vh;
+}
+
+
+form {
+  background-color: #E0ACD5; 
+  padding: 2rem;
+  border-radius: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  list-style-position: 1px;
+}
+
+.singleContainer {
+  margin-bottom: 1rem;
+}
+
+.labelContainer {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #634B66;
+
+  padding-bottom: 5px;
+}
+
+.labelContainer label {
+  color: #634B66;
+}
+
+.inputContainer input{
+  padding: .7rem;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  width: 100%;
+}
+
+
+input:focus {
+  outline: none;
+}
+
+
+.alreadyHaveAcc {
+  display: flex;
+
+  padding-top: 1rem;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.alreadyHaveAcc p {
+  padding-right: .5rem;
+}
+
+.signHereLink {
+  color: #C83E4D;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  transition: all .2s;
+}
+
+.signHereLink:hover {
+  color: #736CED;
+}
+
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 3rem;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none; 
+  font-size: 15px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  background-color: #736CED;
+  border-radius: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  letter-spacing: 1px;
+}
+
+.button:focus {
+  outline: none;
+}
+
+.button:hover {
+  background-color:  #634B66;
+}
+
+
